@@ -2,7 +2,7 @@
 
 <h2>Failed login</h2>
 
-<form action="index.html">
+<form action="home.html">
 
   <input type="submit" value = "Try again">
 

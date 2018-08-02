@@ -3,18 +3,18 @@
 $inputuser = $_POST['user'];
 $inputpass = $_POST['pass'];
 
-if ($input user == "Hirsh" && $inputpass == "123")
+if ($inputuser == "Hirsh" && $inputpass == "123")
 {
 
 echo "Welcome";
 
-header('Location: home.php')
+    header('Location: index.php');
 
 } else {
 
   echo "⛔️";
 
-  header('Location: fail.html')
+    header('Location: fail.html');
 
 }
 
